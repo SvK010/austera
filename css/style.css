@@ -90,3 +90,128 @@ header {
     line-height: 50px;
 }
 
+main {
+    color: #242424;
+}
+
+main h2 {
+    margin: 75px 0;
+    padding-bottom: 75px;
+    
+    font-size: 40px;
+    font-weight: 500;
+    text-align: center;
+    
+    border-bottom: 1px solid #e7e7e7;
+}
+
+.services h3 {
+    color: #242424;
+    font-size: 20px;
+    
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+.services p {
+    color: #878787;
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: normal;
+    
+    margin-right: 30px;
+    margin-bottom: 65px;
+}
+
+.button {
+    display: block;    
+    
+    width: 155px;
+    height: 50px;
+    
+    background-color: #39b9ef;
+    border-radius: 40px;
+    
+    font-size: 14px;
+    text-align: center;
+    margin: 0 auto;
+    line-height: 50px;
+}
+
+.button:hover {
+    color: #39b9ef;
+    background-color: #fff;   
+    
+    border: 1px solid #39b9ef;    
+}
+
+.notebook-block {
+    margin-top: 180px;
+}
+
+.notebook-block h3,
+.tablet-block h3 {
+    margin: 0;
+    
+    font-size: 28px;
+    font-weight: 600;
+    
+    margin-top: 55px;
+    margin-bottom: 25px;
+}
+
+.notebook-block p,
+.tablet-block p {
+    margin: 0;
+/*    margin-right: 65px;*/
+    
+    color: #878787;
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: normal;
+}
+
+.notebook-block .button,
+.tablet-block .button {
+    margin: 0;
+    margin-top: 28px;
+}
+
+.tablet-block {
+    margin-top: 104px;
+}
+
+.tablet-block h3,
+.tablet-block p,
+.tablet-block .button {
+    margin-left: 70px;
+}
+
+.tablet-block h3,
+.tablet-block p {
+    color: #ffffff;
+}
+
+.tablet-block .button {
+    background-color: #ffffff;
+    color: #39b9ef;
+
+}
+
+.tablet-block .button:hover {
+    color: #ffffff;
+    background-color: #39b9ef;   
+    
+    border: 1px solid #ffffff;    
+}
+
+
+.back {
+    background-image: linear-gradient(150deg, #fff 60%, #2ebaee 50%);
+}
+
+
+
+
+
+
