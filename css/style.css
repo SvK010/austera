@@ -96,11 +96,11 @@ header {
     line-height: 50px;
 }
 
-main {
+.main-content {
     color: #242424;
 }
 
-main h2 {
+.main-content h2 {
     margin: 75px 0;
     padding-bottom: 75px;
     
@@ -338,7 +338,7 @@ main h2 {
     background-image: url(../img/back-footer.jpg);
     background-position: center center;
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
 }
 
 .main-footer h2 {
@@ -497,17 +497,122 @@ main h2 {
 
 @media (min-width: 576px) and (max-width: 767.98px) { ... }
 
-@media (min-width: 768px) and (max-width: 991.98px) { ... }
+@media (min-width: 768px) and (max-width: 991.98px) {
+    header {
+        height: 550px;
+    }
+    .text-block {
+        margin-top: 50px;
+    }
+    .text-block h1 {
+        font-size: 40px;
+    }
+    .main-content h2 {
+        font-size: 30px;
+        margin: 50px 0;
+        padding-bottom: 50px;
+    }
+    .services,
+    .services h3 {
+        text-align: center;
+    }    
+    .services p {
+        margin-right: 10px;
+        margin-bottom: 35px;
+        text-align: left;
+    }
+    .notebook-block {
+        margin-top: 110px;
+        margin-bottom: 150px;
+    }
+    .notebook-block h3,
+    .tablet-block h3 {
+        margin-top: 5px;
+        font-size: 20px;
+    }
+    .notebook-block p,
+    .tablet-block p {
+        font-size: 12px;
+    }
+    .tablet-block {
+        padding-bottom: 105px;
+    }
+    .tablet-block h3,
+    .tablet-block p,
+    .tablet-block .button {
+        margin-left: 30px;
+    }
+    .man-block h3 {
+        font-size: 20px;
+        margin-top: 15px;
+    }
+    .man-block p {
+        font-size: 12px;
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+    .man-block h3,
+    .man-block p,
+    .man-block .button {
+        margin-left: 15px;
+    }
+    .team-block {
+        height: 900px;
+    }
+    .team-block h2 {
+        font-size: 34px;
+        margin: 40px 0;
+        padding: 0;
+    }
+    .team-block-name {
+        margin-top: 10px;
+    }
+    .team-block-name p {
+        margin-bottom: 10px;
+    }
+    .team-block .button {
+        width: 130px;
+        margin-bottom: 10px;
+    }
+    .main-footer {
+        height: 710px;    
+        text-align: center;
+    }
+    .main-footer h2 {
+        margin-top: 35px;
+        font-size: 34px;
+    }
+    .footer-contacts {
+        margin-top: 25px;
+        font-size: 14px;
+    }
+    .footer-contacts .phone {
+        padding-top: 15px;
+    }
+    .footer-contacts span {
+        font-size: 18px;
+    }
+    .social {
+        margin-top: 30px;
+    }
+    .main-footer input[type="text"] {
+        margin-top: 30px;
+    }
+    .second-footer-item {
+        margin-right: 10px;
+    }
+    .second-footer p {
+        text-align: center;
+    }
+}
 
 @media (min-width: 992px) and (max-width: 1199.98px) { 
     .main-navigation {
         margin-right: 20px;
-    }
-    
+    }    
     .services {
         text-align: center;
-    }
-    
+    }    
     .services p,
     .services h3 {
         text-align: left;
@@ -516,8 +621,7 @@ main h2 {
     .tablet-block h3 {
         font-size: 24px;
         margin-top: 10px;
-    }
-    
+    }    
     .man-block h3 {
         font-size: 30px;
         margin-top: 25px;
@@ -530,6 +634,32 @@ main h2 {
         font-size: 20px;
         padding: 90px 0 0 20px;
     }
+    .team-block {
+        height: auto;
+    }
+    .main-footer {
+        height: 353px;
+        margin-top: 100px;
+    }
+    .main-footer h2 {
+        margin-top: 30px;
+        font-size: 40px;
+    }
+    .footer-contacts {
+        margin-top: 15px;
+    }
+    .main-footer input[type="text"] {
+        margin-top: 30px;
+    }
+    .main-footer input[type="text"], 
+    .main-footer input[type="email"], 
+    .main-footer textarea {
+        width: 400px;
+        height: 35px;
+    }
+    .main-footer textarea {
+        height: 100px;
+    }  
 }
 
 @media (min-width: 1200px) and (max-width: 1300.98px) { 
