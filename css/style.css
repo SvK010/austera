@@ -21,6 +21,12 @@ header {
     background-position: center center;    
 }
 
+.img-adaptive {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
 .menu {
     height: 138px;
     
@@ -487,3 +493,61 @@ main h2 {
     text-align: right;
 }
 
+@media (max-width: 575.98px) { ... }
+
+@media (min-width: 576px) and (max-width: 767.98px) { ... }
+
+@media (min-width: 768px) and (max-width: 991.98px) { ... }
+
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+    .main-navigation {
+        margin-right: 20px;
+    }
+    
+    .services {
+        text-align: center;
+    }
+    
+    .services p,
+    .services h3 {
+        text-align: left;
+    }
+    .notebook-block h3,
+    .tablet-block h3 {
+        font-size: 24px;
+        margin-top: 10px;
+    }
+    
+    .man-block h3 {
+        font-size: 30px;
+        margin-top: 25px;
+    }
+    .man-block p {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .notes-block h4 {
+        font-size: 20px;
+        padding: 90px 0 0 20px;
+    }
+}
+
+@media (min-width: 1200px) and (max-width: 1300.98px) { 
+    .notes-block h4 {
+        font-size: 26px;
+    }
+    .main-footer{
+        height: 437px;
+    }
+    .main-footer input[type="text"],
+    .main-footer input[type="email"] {
+        height: 35px;
+    }
+    
+    .main-footer textarea {
+        height: 120px;
+    }
+    .social  {
+        margin-top: 30px;
+    }
+}
