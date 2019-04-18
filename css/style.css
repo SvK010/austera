@@ -495,7 +495,142 @@ header {
 
 @media (max-width: 575.98px) { ... }
 
-@media (min-width: 576px) and (max-width: 767.98px) { ... }
+@media (min-width: 576px) and (max-width: 767.98px) { 
+    header {
+        height: 500px;
+    }
+    .menu a {
+        padding-left: 25px;
+    }
+    .text-block {
+        margin-top: 25px;
+    }
+    .text-block h1 {
+        font-size: 34px;
+    }
+    .text-block p {
+        font-size: 12px;
+    }
+    .text-block a {
+        width: 150px;
+    }
+    .main-content h2 {
+        font-size: 28px;
+        margin: 40px 0;
+        padding-bottom: 50px;
+    }
+    .services,
+    .services h3 {
+        text-align: center;
+    }
+    .services p {
+        margin-right: 10px;
+        margin-bottom: 35px;
+        text-align: left;
+    }
+    .notebook-block {
+        margin-top: 80px;
+        margin-bottom: 50px;
+    }
+    .notebook-block h3,
+    .tablet-block h3 {
+        margin-top: 5px;
+        font-size: 14px;
+    }
+    .notebook-block p,
+    .tablet-block p {
+        font-size: 10px;
+        line-height: 20px;
+    }
+    .tablet-block {
+        margin-top: 10px;
+        padding-bottom: 85px;
+    }
+    .tablet-block h3,
+    .tablet-block p,
+    .tablet-block .button {
+        margin-left: 20px;
+    }
+    .back {
+    background-image: linear-gradient(150deg, #fff 70%, #2ebaee 60%);
+    }
+    .man-block h3 {
+        font-size: 14px;
+        margin-top: 10px;
+    }
+    .man-block p {
+        font-size: 10px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    .man-block h3,
+    .man-block p,
+    .man-block .button {
+        margin-left: 10px;
+    }
+    .man-block img {
+        height: 237px;
+    }
+    .notes-block h4 {
+        font-size: 20px;
+    }
+    .team-block {
+        height: 900px;
+    }
+    .team-block h2 {
+        font-size: 24px;
+        margin: 30px 0;
+        padding: 0;
+    }
+    .team-block-name {
+        margin-top: 10px;
+    }
+    .team-block-name p {
+        margin-bottom: 10px;
+    }
+    .team-block .button {
+        width: 130px;
+        margin-bottom: 10px;
+    }
+    .main-footer {
+        height: 710px;    
+        text-align: center;
+    }
+    .main-footer h2 {
+        margin-top: 35px;
+        font-size: 24px;
+    }
+    .footer-contacts {
+        margin-top: 25px;
+        font-size: 14px;
+    }
+    .footer-contacts .phone {
+        padding-top: 15px;
+    }
+    .footer-contacts span {
+        font-size: 18px;
+    }
+    .social {
+        margin-top: 30px;
+    }
+    .main-footer input[type="text"] {
+        margin-top: 30px;
+    }
+    .second-footer-items {
+        margin: 10px;
+    }
+    .second-footer-item {
+        margin-right: 10px;
+    }
+    .second-footer p {
+        text-align: center;
+    }
+    .second-footer-item a,
+    .second-footer p {
+        font-size: 12px;
+    }
+    
+}
 
 @media (min-width: 768px) and (max-width: 991.98px) {
     header {
@@ -666,17 +801,9 @@ header {
     .main-footer textarea {
         height: 100px;
     }  
-    
-/*
-    
-    
-    .main-footer input[type="text"] {
-        margin-top: 30px;
-    }
-*/
 }
 
-@media (min-width: 1200px) and (max-width: 1300.98px) { 
+@media (min-width: 1200px)  { 
     .notes-block h4 {
         font-size: 26px;
     }
