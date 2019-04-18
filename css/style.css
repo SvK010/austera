@@ -642,11 +642,17 @@ header {
         margin-top: 100px;
     }
     .main-footer h2 {
-        margin-top: 30px;
+        margin-top: 25px;
         font-size: 40px;
     }
     .footer-contacts {
-        margin-top: 15px;
+        margin-top: 10px;
+    }
+    .social {
+        margin-top: 40px;
+    }
+    .social-item {
+        margin-right: 15px;
     }
     .main-footer input[type="text"] {
         margin-top: 30px;
@@ -660,6 +666,14 @@ header {
     .main-footer textarea {
         height: 100px;
     }  
+    
+/*
+    
+    
+    .main-footer input[type="text"] {
+        margin-top: 30px;
+    }
+*/
 }
 
 @media (min-width: 1200px) and (max-width: 1300.98px) { 
